@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CDDC39"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_All">
+
+        // Câu hỏi 1
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All"
+            android:textSize="@dimen/textSize_All"
+            android:text="@string/c1" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All">
+
+            <RadioButton
+                android:id="@+id/quiz1_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c1_a" />
+
+            <RadioButton
+                android:id="@+id/quiz1_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c1_b" />
+
+            <RadioButton
+                android:id="@+id/quiz1_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c1_c" />
+        </RadioGroup>
+
+        // Câu hỏi 2
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All"
+            android:textSize="@dimen/textSize_All"
+            android:text="@string/c2" />
+
+        <CheckBox
+            android:id="@+id/quiz2_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All"
+            android:text="@string/c2_a" />
+
+        <CheckBox
+            android:id="@+id/quiz2_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All"
+            android:text="@string/c2_b" />
+
+        <CheckBox
+            android:id="@+id/quiz2_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All"
+            android:text="@string/c2_c" />
+
+            <CheckBox
+            android:id="@+id/quiz2_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All"
+            android:text="@string/c2_d" />
+
+        // Câu hỏi 3
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All"
+            android:textSize="@dimen/textSize_All"
+            android:text="@string/c3" />
+
+        <EditText
+            android:id="@+id/quiz3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All"
+            android:inputType="text"/>
+
+        // Câu hỏi 4
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All"
+            android:textSize="@dimen/textSize_All"
+            android:text="@string/c4" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All">
+
+            <RadioButton
+                android:id="@+id/quiz4_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c4_a" />
+
+            <RadioButton
+                android:id="@+id/quiz4_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c4_b" />
+        </RadioGroup>
+
+        // Câu hỏi 5
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All"
+            android:textSize="@dimen/textSize_All"
+            android:text="@string/c5" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All">
+
+            <RadioButton
+                android:id="@+id/quiz5_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c5_a" />
+
+            <RadioButton
+                android:id="@+id/quiz5_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c5_b" />
+
+            <RadioButton
+                android:id="@+id/quiz5_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c5_c" />
+
+            <RadioButton
+                android:id="@+id/quiz5_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c5_d" />
+        </RadioGroup>
+
+        // Câu hỏi 6
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All"
+            android:textSize="@dimen/textSize_All"
+            android:text="@string/c6" />
+
+        <EditText
+            android:id="@+id/quiz6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All"
+            android:inputType="text"/>
+
+        // Câu hỏi 7
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All"
+            android:textSize="@dimen/textSize_All"
+            android:text="@string/c7" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All">
+
+            <RadioButton
+                android:id="@+id/quiz7_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c7_a" />
+
+            <RadioButton
+                android:id="@+id/quiz7_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c7_b" />
+
+            <RadioButton
+                android:id="@+id/quiz7_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c7_c" />
+        </RadioGroup>
+
+        // Câu hỏi 8
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All"
+            android:textSize="@dimen/textSize_All"
+            android:text="@string/c8" />
+
+        <CheckBox
+            android:id="@+id/quiz8_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All"
+            android:text="@string/c8_a" />
+
+        <CheckBox
+            android:id="@+id/quiz8_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All"
+            android:text="@string/c8_b" />
+
+        <CheckBox
+            android:id="@+id/quiz8_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All"
+            android:text="@string/c8_c" />
+
+        <CheckBox
+            android:id="@+id/quiz8_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All"
+            android:text="@string/c8_d" />
+
+        // Câu hỏi 9
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All"
+            android:textSize="@dimen/textSize_All"
+            android:text="@string/c9" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All">
+
+            <RadioButton
+                android:id="@+id/quiz9_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c9_a" />
+
+            <RadioButton
+                android:id="@+id/quiz9_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c9_b" />
+
+            <RadioButton
+                android:id="@+id/quiz9_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c9_c" />
+
+            <RadioButton
+                android:id="@+id/quiz9_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c9_d" />
+        </RadioGroup>
+
+        // Câu hỏi 10
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All"
+            android:textSize="@dimen/textSize_All"
+            android:text="@string/c10" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_All">
+
+            <RadioButton
+                android:id="@+id/quiz10_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c10_a" />
+
+            <RadioButton
+                android:id="@+id/quiz10_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c10_b" />
+
+            <RadioButton
+                android:id="@+id/quiz10_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c10_c" />
+
+            <RadioButton
+                android:id="@+id/quiz10_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c10_d" />
+        </RadioGroup>
+
+        // Kiểm tra kết quả
+        <Button
+            android:id="@+id/test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kq" />
+    </LinearLayout>
+</ScrollView>

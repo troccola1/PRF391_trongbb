@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/implicit_intent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Implicit Intent" />
+
+        <Button
+            android:id="@+id/explicit_intent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Explicit Intent" />
+
+        <Button
+            android:id="@+id/intent_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intent Filter" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">PRM391x_02_VN_Project1 _trongbbfx02929@funix.edu.vn</string>
+
+    <string name="c1">1. Chọn giá trị của biểu thức sau: Math.abs(Math.min(-6,3)).</string>
+    <string name="c1_a">A. 3</string>
+    <string name="c1_b">B. 6</string>
+    <string name="c1_c">C. -6</string>
+
+    <string name="c2">2. Câu nào dưới đây đúng nhất?</string>
+    <string name="c2_a">A. Quả táo màu đỏ.</string>
+    <string name="c2_b">B. Đám mây màu trắng.</string>
+    <string name="c2_c">C. Chùm nho màu xanh.</string>
+    <string name="c2_d">D. Trái đất có hình vuông.</string>
+
+    <string name="c3">3. Thủ đô của Việt Nam nằm ở đâu?</string>
+
+    <string name="c4">4. Con số nào lớn nhất có 2 chữ số?</string>
+    <string name="c4_a">A. 9 mũ 9</string>
+    <string name="c4_b">B. 99</string>
+
+    <string name="c5">5. Khai báo các biến: int m,n; float x,y; Lệnh nào sai:</string>
+    <string name="c5_a">n = 5</string>
+    <string name="c5_b">x = 10</string>
+    <string name="c5_c">y = 12.5</string>
+    <string name="c5_d">m = 2.5</string>
+
+    <string name="c6">6. Tên hóa học của rượu là gì?</string>
+
+    <string name="c7">7. San hô là động vật hay thực vật?</string>
+    <string name="c7_a">A. Động vật</string>
+    <string name="c7_b">B. Thực vật</string>
+    <string name="c7_c">C. Nửa động vật, nửa thực vật</string>
+
+    <string name="c8">8. Các quốc gia có trong khu vực Asean</string>
+    <string name="c8_a">A. Việt Nam</string>
+    <string name="c8_b">B. Singapore</string>
+    <string name="c8_c">C. Nhật bản</string>
+    <string name="c8_d">D. Philippines</string>
+
+    <string name="c9">9. Công ty nào đã mua android?</string>
+    <string name="c9_a">A. Apple</string>
+    <string name="c9_b">B. Nokia</string>
+    <string name="c9_c">C. Google</string>
+    <string name="c9_d">D. Không có công ty nào</string>
+
+    <string name="c10">10. Android không hỗ trợ định dạng nào dưới đây?</string>
+    <string name="c10_a">A. MP4</string>
+    <string name="c10_b">B. MPEG</string>
+    <string name="c10_c">C. AVI</string>
+    <string name="c10_d">D. MIDI</string>
+
+    <string name="kq">Kết quả</string>
+</resources>
