@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/myLayout"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ProfileFragment">
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/friend_profile_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/layout_marginTop_profile"/>
+
+    <TextView
+        android:id="@+id/text_view_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:layout_below="@+id/friend_profile_picture"
+        android:textSize="@dimen/text_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/layout_marginTop_name"/>
+
+    <TextView
+        android:id="@+id/text_view_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:layout_below="@+id/text_view_name"
+        android:textSize="@dimen/text_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/layout_marginTop_email"/>
+
+    <ImageView
+        android:id="@+id/friend_profile_picture_google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/layout_marginTop_profile" />
+
+    <TextView
+        android:id="@+id/text_view_name_google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:layout_below="@+id/friend_profile_picture_google"
+        android:textSize="@dimen/text_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/layout_marginTop_name_google"/>
+
+    <TextView
+        android:id="@+id/text_view_email_google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:layout_below="@+id/text_view_name_google"
+        android:textSize="@dimen/text_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/layout_marginTop_email"/>
+
+</RelativeLayout>

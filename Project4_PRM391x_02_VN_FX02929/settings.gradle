@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Project4_PRM391x_02_VN_FX02929"

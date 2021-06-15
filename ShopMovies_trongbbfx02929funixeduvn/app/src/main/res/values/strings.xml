@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">App Shop Movies</string>
+    <string name="movies">Movies List</string>
+    <string name="log_out">Log Out</string>
+    <string name="title_movies">Movies</string>
+    <string name="title_profile">Profile</string>
+    <string name="new_films">New Release Films</string>
+    <string name="todo">Image</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="google">Google</string>
+
+    <string name="facebook_app_id">810598553210299</string>
+</resources>
